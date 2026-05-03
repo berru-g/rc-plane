@@ -1,3 +1,15 @@
+/*
+  Emetteur pour ROV avec Arduino Nano et NRF24L01
+  - Joystick GAUCHE (Y) → Gaz (throttle)
+  - Joystick DROIT (Y) → Profondeur (pitch)
+  - Joystick DROIT (X) → Gouvernail (roll)
+  
+  PCB connectés aux broches analogiques :
+  - Joystick GAUCHE : A0 (Y), A1 (X)
+  - Joystick DROIT : A2 (Y), A3 (X)
+  
+  Le code mappe les valeurs des joysticks de 0-1023 à 0-255 pour les envoyer via le module NRF24L01.
+*/
 #include <SPI.h>
 #include <nRF24L01.h>
 #include <RF24.h>
