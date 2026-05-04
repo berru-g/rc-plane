@@ -21,4 +21,6 @@ Adapté à l'ideaspark, optimisation du mappage des joysticks pour les plages de
 
 # Émetteur et Récepteur :
 
+- Ajout d'un circuit pour voir le niveau de la batterie, pin pour R&D, optimisation des pertes probable de tension et de courant.
+
 ![emeteur](./img/Emetteur-Recepteur-3D-RC-plane.png)
