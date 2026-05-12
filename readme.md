@@ -1,21 +1,26 @@
 # RC PLANE inspired by :
-        https://www.rcpano.net/2025/09/30/make-a-flying-wing-with-simple-materials-diy-rc-plane-remote-control/
+
+[RC-Pano](https://www.rcpano.net/2025/09/30/make-a-flying-wing-with-simple-materials-diy-rc-plane-remote-control/)
 
 ### Transmetteur pour avion RC, 3 channel, 1 moteur et 2 servo. ESP32, NRF24L01 et OLED integré.
 
 ## Revue de code : 
-    - Adapté à l'ideaspark, optimisation du mappage des joysticks pour les plages de l'ESP32, ajout de messages d'erreur pour le NRF24L01, amélioration de l'affichage des commandes, et préparation pour les futures améliorations du circuit.
-## Revue du circuit : 
-    - Sécurité des GPIO, alimentation 7.4V réduit à 3.3V pouir le NRF24L01, ajout de condensateurs de découplage, protection contre les interférences électromagnétiques à venir...
+    - Changement du Vtail pour un pilotage basic ( gouvernaille et profondeur).
+Adapté à l'ideaspark, optimisation du mappage des joysticks pour les plages de l'ESP32, ajout de messages d'erreur pour le NRF24L01, amélioration de l'affichage des commandes, et préparation pour les futures améliorations du circuit.
 
-#include <SPI.h>
-#include <RF24.h>
-#include <U8g2lib.h>
+## Revue du circuit : 
+    - Sécurité des GPIO, retracage des pin pour sécuriseret optimiser les tension selon le module, notamment l’ alimentation 7.4V réduit à 3.3V pouir le NRF24L01, ajout de condensateurs de découplage. Protection contre les interférences électromagnétiques à venir...
+
+## include <SPI.h>, <RF24.h> et <U8g2lib.h>
 
 ![schema](./img/Transmetteur-open-source-berrug-SCHEMA.png)
 
 ![pcb](./img/Transmetteur-open-source-berrug-PCB.png)
 
 ![3D](./img/Transmetteur-open-source-berrug-3D.png)
+
+# Émetteur et Récepteur :
+
+- Ajout d'un circuit pour voir le niveau de la batterie, pin pour R&D, optimisation des pertes probable de tension et de courant.
 
 ![emeteur](./img/Emetteur-Recepteur-3D-RC-plane.png)
