@@ -9,9 +9,8 @@
 Adapté à l'ideaspark, optimisation du mappage des joysticks pour les plages de l'ESP32, ajout de messages d'erreur pour le NRF24L01, amélioration de l'affichage des commandes, et préparation pour les futures améliorations du circuit.
 
 ## Revue du circuit : 
-    - Sécurité des GPIO, retracage des pin pour sécuriseret optimiser les tension selon le module, notamment l’ alimentation 7.4V réduit à 3.3V pouir le NRF24L01, ajout de condensateurs de découplage. Protection contre les interférences électromagnétiques à venir...
+    - Sécurité des GPIO, retracage des pin pour sécuriser et optimiser les tension selon le module, notamment l’ alimentation 7.4V réduit à 3.3V pouir le NRF24L01, ajout de condensateurs de découplage. Protection contre les interférences électromagnétiques à venir...
 
-## include <SPI.h>, <RF24.h> et <U8g2lib.h>
 
 ![schema](./img/Transmetteur-open-source-berrug-SCHEMA.png)
 
@@ -21,6 +20,18 @@ Adapté à l'ideaspark, optimisation du mappage des joysticks pour les plages de
 
 # Émetteur et Récepteur :
 
-- Ajout d'un circuit pour voir le niveau de la batterie, pin pour R&D, optimisation des pertes probable de tension et de courant.
+- Ajout d'un circuit pour voir le niveau de la batterie, pin pour R&D, optimisation des pertes probable de tension et de courant. Ajout de connectique optionnel pour condo et resistance si besoin. Ajout de connectique libre pour souder deux connections existante si besoin de faire du debug ou de la R&D.
 
 ![emeteur](./img/Emetteur-Recepteur-3D-RC-plane.png)
+
+
+**Pour des raisons économique j'abandonne la coupe en forme de manette pour l'émetteur,  puis ajoute le recepteur sur le meme pcb avec un trait de coupe pour les séparer.**
+
+![pcb final](./img/pcb-final.png)
+
+![process](./img/predecoupe.png)
+
+# Plan de l'avion :
+
+![plan](./img/plan.png)
+    *A retrouver dans /rc-plane/CNC/jupiter_plan.svg*
