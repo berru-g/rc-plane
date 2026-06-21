@@ -27,11 +27,26 @@ Adapté à l'ideaspark, optimisation du mappage des joysticks pour les plages de
 
 **Pour des raisons économique j'abandonne la coupe en forme de manette pour l'émetteur,  puis ajoute le recepteur sur le meme pcb avec un trait de coupe pour les séparer.**
 
+![pcb final](./img/co-com.png)
+
+![pcb final](./img/co-cooper.png)
+
 ![pcb final](./img/pcb-final.png)
 
 ![process](./img/predecoupe.png)
 
+![process](./img/office.jpg)
+
+![process](./img/montage-general.jpg)
+
+![process](./img/montage.jpg)
+
+![process](./img/iconA5.jpg)
+
+![process](./img/maintient-moteur.jpg)
+
+
 # Plan de l'avion :
 
-![plan](./img/plan.png)
-    *A retrouver dans /rc-plane/CNC/jupiter_plan.svg*
+![plan](./img/predecoupe.png)
+    *A retrouver dans /rc-plane/CNC/...*
