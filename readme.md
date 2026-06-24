@@ -1,4 +1,7 @@
-# RC PLANE inspired by :
+# RC PLANE 
+
+
+- inspired by :
 
 [RC-Pano](https://www.rcpano.net/2025/09/30/make-a-flying-wing-with-simple-materials-diy-rc-plane-remote-control/)
 
@@ -8,7 +11,7 @@
     - Changement du Vtail pour un pilotage basic ( gouvernaille et profondeur).
 Adapté à l'ideaspark, optimisation du mappage des joysticks pour les plages de l'ESP32, ajout de messages d'erreur pour le NRF24L01, amélioration de l'affichage des commandes, et préparation pour les futures améliorations du circuit.
 
-## Revue du circuit : 
+## Conception du circuit : 
     - Sécurité des GPIO, retracage des pin pour sécuriser et optimiser les tension selon le module, notamment l’ alimentation 7.4V réduit à 3.3V pouir le NRF24L01, ajout de condensateurs de découplage. Protection contre les interférences électromagnétiques à venir...
 
 
@@ -46,7 +49,10 @@ Adapté à l'ideaspark, optimisation du mappage des joysticks pour les plages de
 ![process](./img/maintient-moteur.jpg)
 
 
-# Plan de l'avion :
+# Plan de l'avion a venir:
 
-![plan](./img/predecoupe.png)
-    *A retrouver dans /rc-plane/CNC/...*
+Voir ddasn RC-PLANE/CNC
+
+## Création d'un modele miniature inspiré du Savoie S 21 du film Porco Rosso.
+
+![plan](./pcb-design/porco-rosso-airplane.png)
