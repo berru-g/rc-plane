@@ -1,9 +1,7 @@
 # RC PLANE 
 
 
-- inspired by :
-
-[RC-Pano](https://www.rcpano.net/2025/09/30/make-a-flying-wing-with-simple-materials-diy-rc-plane-remote-control/)
+- inspiré de [RC-Pano](https://www.rcpano.net/2025/09/30/make-a-flying-wing-with-simple-materials-diy-rc-plane-remote-control/).
 
 ### Transmetteur pour avion RC, 3 channel, 1 moteur et 2 servo. ESP32, NRF24L01 et OLED integré.
 
@@ -17,9 +15,6 @@ Adapté à l'ideaspark, optimisation du mappage des joysticks pour les plages de
 
 ![schema](./img/Transmetteur-open-source-berrug-SCHEMA.png)
 
-![pcb](./img/Transmetteur-open-source-berrug-PCB.png)
-
-![3D](./img/Transmetteur-open-source-berrug-3D.png)
 
 # Émetteur et Récepteur :
 
@@ -36,20 +31,19 @@ Adapté à l'ideaspark, optimisation du mappage des joysticks pour les plages de
 
 ![pcb final](./img/pcb-final.png)
 
-![process](./img/predecoupe.png)
 
 ![process](./img/office.jpg)
 
 ![process](./img/montage-general.jpg)
 
-![process](./img/montage.jpg)
 
 ![process](./img/iconA5.jpg)
 
-![process](./img/maintient-moteur.jpg)
 
 
-# Plan de l'avion a venir:
+# Plan de mes proto :
+![plan](./img/iconA5-decoupe-depron.jpg)
+![plan](./img/berru-marchetti-inspiration.svg)
 
 Voir ddasn RC-PLANE/CNC
 
